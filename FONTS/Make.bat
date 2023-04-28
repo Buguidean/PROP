@@ -3,6 +3,7 @@ javac -classpath "..\lib\javafx-sdk-19\lib\javafx-swt.jar;..\lib\javafx-sdk-19\l
 
 xcopy .\presentacio\classes\*.fxml ..\out\production\subgrup-prop31.2\presentacio\classes\ /y /q
 xcopy .\presentacio\classes\*.css ..\out\production\subgrup-prop31.2\presentacio\classes\ /y /q
+xcopy .\icones2 ..\out\production\PROP /y /q
 
 
 java -classpath ".\lib\javafx-sdk-19\lib\javafx-swt.jar;.\lib\javafx-sdk-19\lib\javafx.web.jar;.\lib\javafx-sdk-19\lib\javafx.media.jar;.\lib\javafx-sdk-19\lib\javafx.swing.jar;.\lib\objenesis-3.2.jar;.\lib\hamcrest-core-1.3.jar" -p "..\lib\javafx-sdk-19\lib\javafx.fxml.jar;..\lib\byte-buddy-agent-1.12.16.jar;..\out\production\subgrup-prop31.2;..\lib\junit-4.12.jar;..\lib\mockito-core-4.8.1.jar;..\lib\javafx-sdk-19\lib\javafx.graphics.jar;..\lib\javafx-sdk-19\lib\javafx.controls.jar;..\lib\javafx-sdk-19\lib\javafx.base.jar;..\lib\byte-buddy-1.12.16.jar" -m hellofx/presentacio.classes.MainApp
